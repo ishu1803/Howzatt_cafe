@@ -1,0 +1,296 @@
+.Foundation{
+  background-color: rgb(143, 27, 27);
+  height: 100vh;
+  width: 100vw;
+}
+
+#Howzatt{
+  background-color: rgb(143,27,27);
+  position: absolute;
+  display: flex;
+  top:1%;
+  left:45%;
+  font-size: 250%;
+  color: white ;
+  font-style: italic;
+  z-index: 5;
+}
+.Stadium{
+  background-color: greenyellow;
+  height: 80vh;
+  width: 90vw;
+  position: absolute;
+  border-radius: 35%;
+  display: flex;
+  top:15%;
+  left: 7%;
+  justify-content: center;
+  align-items: center;
+  border:5px solid rgb(160, 65, 42);
+  
+}
+.Pitch{
+  background-color:rgb(206, 193, 9);
+  height: 25%;
+  width: 25%;
+  position: absolute;
+  display: flex;
+  border:2px solid rgb(17, 5, 0);
+  
+}
+.Stump1{
+  background-color: black;
+  position: absolute;
+  height: 6%;
+  width: 2%;
+  border-radius: 50%;
+  top:37%;
+  left:2%
+}
+.Stump2{
+  background-color: black;
+  position: absolute;
+  height: 6%;
+  width: 2%;
+  border-radius: 50%;
+  top:45%;
+  left:2%
+}
+.Stump3{
+  background-color: black;
+  position: absolute;
+  height: 6%;
+  width: 2%;
+  border-radius: 50%;
+  top:53%;
+  left:2%
+}
+.Stump4{
+  background-color: black;
+  position: absolute;
+  height: 6%;
+  width: 2%;
+  border-radius: 50%;
+  top:37%;
+  left:96%;
+}
+.Stump5{
+  background-color: black;
+  position: absolute;
+  height: 6%;
+  width: 2%;
+  border-radius: 50%;
+  top:45%;
+  left:96%;
+}
+.Stump6{
+  background-color: black;
+  position: absolute;
+  height: 6%;
+  width: 2%;
+  border-radius: 50%;
+  top:53%;
+  left:96%;
+}
+.Umpire1{
+  background-color:rgb(255, 255, 255);
+  height: 3%;
+  width: 1%;
+  position: absolute;
+  z-index: 1;
+  border-radius: 50%;
+  left:35%;
+  top:44%;
+  rotate:90deg;
+}
+.Umpire2{
+  background-color:rgb(255, 255, 255);
+  height: 3%;
+  width: 1%;
+  position: absolute;
+  z-index: 1;
+  border-radius: 50%;
+  left:61%;
+  top:66%;
+}
+.Batsman1{
+  background-color:rgb(155, 20, 20);
+  height: 3%;
+  width: 1%;
+  position: absolute;
+  z-index: 1;
+  border-radius: 50%;
+  left:60%;
+  top:44%;
+  rotate:90deg;
+}
+.Batsman2{
+  background-color:rgb(155, 20, 20);
+  height: 3%;
+  width: 1%;
+  position: absolute;
+  z-index: 1;
+  border-radius: 50%;
+  left:39%;
+  top:55%;
+}
+.Bowler{
+  background-color:rgb(0, 0, 0);
+  height: 3%;
+  width: 1%;
+  position: absolute;
+  z-index: 1;
+  border-radius: 50%;
+  left:27%;
+  top:42%;
+}
+.WicketKeeper{
+  background-color:rgb(0, 0, 0);
+  height: 3%;
+  width: 1%;
+  position: absolute;
+  z-index: 1;
+  border-radius: 50%;
+  left:70%;
+  top:48%;
+}
+.Player3{
+  background-color:rgb(0, 0, 0);
+  height: 3%;
+  width: 1%;
+  position: absolute;
+  z-index: 1;
+  border-radius: 50%;
+  left:61%;
+  top:22%;
+}
+.Player4{
+  background-color:rgb(0, 0, 0);
+  height: 3%;
+  width: 1%;
+  position: absolute;
+  z-index: 1;
+  border-radius: 50%;
+  left:82%;
+  top:12%;
+}
+.Player5{
+  background-color:rgb(0, 0, 0);
+  height: 3%;
+  width: 1%;
+  position: absolute;
+  z-index: 1;
+  border-radius: 50%;
+  left:47%;
+  top:5%;
+}
+.Player6{
+  background-color:rgb(0, 0, 0);
+  height: 3%;
+  width: 1%;
+  position: absolute;
+  z-index: 1;
+  border-radius: 50%;
+  left:6%;
+  top:30%;
+}
+.Player7{
+  background-color:rgb(0, 0, 0);
+  height: 3%;
+  width: 1%;
+  position: absolute;
+  z-index: 1;
+  border-radius: 50%;
+  left:6%;
+  top:60%;
+}
+.Player8{
+  background-color:rgb(0, 0, 0);
+  height: 3%;
+  width: 1%;
+  position: absolute;
+  z-index: 1;
+  border-radius: 50%;
+  left:40%;
+  top:70%;
+}
+.Player9{
+  background-color:rgb(0, 0, 0);
+  height: 3%;
+  width: 1%;
+  position: absolute;
+  z-index: 1;
+  border-radius: 50%;
+  left:45%;
+  top:94%;
+}
+.Player10{
+  background-color:rgb(0, 0, 0);
+  height: 3%;
+  width: 1%;
+  position: absolute;
+  z-index: 1;
+  border-radius: 50%;
+  left:85%;
+  top:85%;
+}
+.Player11{
+  background-color:rgb(0, 0, 0);
+  height: 3%;
+  width: 1%;
+  position: absolute;
+  z-index: 1;
+  border-radius: 50%;
+  left:40%;
+  top:25%;
+}
+
+#pizza{
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);    
+}
+
+#viewcart{
+  background-color:rgb(248, 99, 0);
+  position: absolute;
+  color:white;
+  left:45%;
+  font-size: 20px;
+  font-style: italic;
+
+}
+#submit{
+  background-color:rgb(248, 99, 0);
+  position: absolute;
+  color:white;
+  left:45%;
+  font-size: 20px;
+  font-style: italic;
+  margin: 5%;
+
+}
+#yourcart{
+  background-color:rgb(245, 97, 0);
+  position: absolute;
+  color:white;
+  left:10%;
+  top:5%;
+  font-size: 150%;
+  font-style: italic;
+}
+#total {
+  background-color: rgb(2, 0, 0);
+  color: white;
+  position: absolute; 
+  width: 82.8%;
+  font-size: 150%;
+  font-style: italic;
+}
+
+#totalText, #totalPrice {
+  position:relative ;
+  left:42.5%;    
+}
+
+
+
