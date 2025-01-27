@@ -8,7 +8,7 @@
   background-color: rgb(143,27,27);
   position: absolute;
   display: flex;
-  top:1%;
+  top:3%;
   left:45%;
   font-size: 250%;
   color: white ;
@@ -38,7 +38,7 @@
   border:2px solid rgb(17, 5, 0);
   
 }
-.Stump1{
+#Stump1{
   background-color: black;
   position: absolute;
   height: 6%;
@@ -47,7 +47,7 @@
   top:37%;
   left:2%
 }
-.Stump2{
+#Stump2{
   background-color: black;
   position: absolute;
   height: 6%;
@@ -56,7 +56,7 @@
   top:45%;
   left:2%
 }
-.Stump3{
+#Stump3{
   background-color: black;
   position: absolute;
   height: 6%;
@@ -65,7 +65,7 @@
   top:53%;
   left:2%
 }
-.Stump4{
+#Stump4{
   background-color: black;
   position: absolute;
   height: 6%;
@@ -74,7 +74,7 @@
   top:37%;
   left:96%;
 }
-.Stump5{
+#Stump5{
   background-color: black;
   position: absolute;
   height: 6%;
@@ -83,7 +83,7 @@
   top:45%;
   left:96%;
 }
-.Stump6{
+#Stump6{
   background-color: black;
   position: absolute;
   height: 6%;
@@ -92,173 +92,158 @@
   top:53%;
   left:96%;
 }
-.Umpire1{
+#pizza{
   background-color:rgb(255, 255, 255);
-  height: 3%;
-  width: 1%;
+  height: auto;
+  width: auto;
   position: absolute;
   z-index: 1;
-  border-radius: 50%;
-  left:35%;
-  top:44%;
+  left:33%;
+  top:48%;
   rotate:90deg;
+  text-align: center;
+  width: auto;
 }
-.Umpire2{
+#pasta{
   background-color:rgb(255, 255, 255);
-  height: 3%;
-  width: 1%;
+  height: auto;
+  width: auto;
   position: absolute;
   z-index: 1;
-  border-radius: 50%;
-  left:61%;
-  top:66%;
+  left:6%;
+  top:31%;
+  text-align: center;
+  width: auto;
 }
-.Batsman1{
-  background-color:rgb(155, 20, 20);
-  height: 3%;
-  width: 1%;
+#momos{
+  display: inline-block;
+  background-color:rgb(255, 255, 255);
+  height: auto;
+  width: auto;
   position: absolute;
   z-index: 1;
-  border-radius: 50%;
-  left:60%;
-  top:44%;
+  left:57%;
+  top:47%;
   rotate:90deg;
+  text-align: center;
+  
 }
-.Batsman2{
-  background-color:rgb(155, 20, 20);
-  height: 3%;
-  width: 1%;
+#chinese{
+  display: inline-block;
+  background-color:rgb(255, 255, 255);
+  height: auto;
+  width: auto;
   position: absolute;
   z-index: 1;
-  border-radius: 50%;
   left:39%;
   top:55%;
+  overflow: hidden;
+  text-align: center;
+  width: auto;
 }
-.Bowler{
-  background-color:rgb(0, 0, 0);
-  height: 3%;
-  width: 1%;
+#icecream{
+  background-color:rgb(255, 255, 255);
+  height: auto;
+  width: auto;
   position: absolute;
   z-index: 1;
-  border-radius: 50%;
-  left:27%;
-  top:42%;
+  left:25%;
+  top:40%;
+  text-align: center;
+  
 }
-.WicketKeeper{
-  background-color:rgb(0, 0, 0);
-  height: 3%;
-  width: 1%;
+#starter{
+  background-color:rgb(255, 255, 255);
+  height: auto;
+  width: auto;
   position: absolute;
   z-index: 1;
-  border-radius: 50%;
   left:70%;
   top:48%;
 }
-.Player3{
-  background-color:rgb(0, 0, 0);
-  height: 3%;
-  width: 1%;
+#patties{
+  background-color:rgb(255, 255, 255);
+  height: auto;
+  width: auto;
   position: absolute;
   z-index: 1;
-  border-radius: 50%;
-  left:61%;
-  top:22%;
+  left:58%;
+  top:70%;
 }
-.Player4{
-  background-color:rgb(0, 0, 0);
-  height: 3%;
-  width: 1%;
+#sandwich{
+  background-color:rgb(255, 255, 255);
+  height: auto;
+  width: auto;
   position: absolute;
   z-index: 1;
-  border-radius: 50%;
   left:82%;
   top:12%;
 }
-.Player5{
-  background-color:rgb(0, 0, 0);
-  height: 3%;
-  width: 1%;
+#burger{
+  background-color:rgb(255, 255, 255);
+  height: auto;
+  width: auto;
   position: absolute;
   z-index: 1;
-  border-radius: 50%;
   left:47%;
   top:5%;
 }
-.Player6{
-  background-color:rgb(0, 0, 0);
-  height: 3%;
-  width: 1%;
+#maggi{
+  background-color:rgb(255, 255, 255);
+  height: auto;
+  width: auto;
   position: absolute;
   z-index: 1;
-  border-radius: 50%;
   left:6%;
   top:30%;
 }
-.Player7{
-  background-color:rgb(0, 0, 0);
-  height: 3%;
-  width: 1%;
+#roll{
+  background-color:rgb(255, 255, 255);
+  height: auto;
+  width: auto;
   position: absolute;
   z-index: 1;
-  border-radius: 50%;
   left:6%;
   top:60%;
 }
-.Player8{
-  background-color:rgb(0, 0, 0);
-  height: 3%;
-  width: 1%;
+#shake{
+  background-color:rgb(255, 255, 255);
+  height: auto;
+  width: auto;
   position: absolute;
   z-index: 1;
-  border-radius: 50%;
   left:40%;
   top:70%;
 }
-.Player9{
-  background-color:rgb(0, 0, 0);
-  height: 3%;
-  width: 1%;
+#beverage{
+  background-color:rgb(255, 255, 255);
+  height: auto;
+  width: auto;
   position: absolute;
   z-index: 1;
-  border-radius: 50%;
   left:45%;
-  top:94%;
+  top:90%;
 }
-.Player10{
-  background-color:rgb(0, 0, 0);
-  height: 3%;
-  width: 1%;
+#hotdrink{
+  background-color:rgb(255, 255, 255);
+  height: auto;
+  width: auto;
   position: absolute;
   z-index: 1;
-  border-radius: 50%;
-  left:85%;
-  top:85%;
+  left:80%;
+  top:82%;  
 }
-.Player11{
-  background-color:rgb(0, 0, 0);
-  height: 3%;
-  width: 1%;
+
+#soup{
+  background-color:rgb(255, 255, 255);
+  height: auto;
+  width: auto;
   position: absolute;
   z-index: 1;
-  border-radius: 50%;
   left:40%;
   top:25%;
 }
 
-#pizza{
-  background-color: rgb(255, 255, 255);
-  color: rgb(0, 0, 0);    
-}
-
-#viewcart{
-  background-color:rgb(248, 99, 0);
-  position: absolute;
-  color:white;
-  left:45%;
-  font-size: 20px;
-  font-style: italic;
-
-}
 #submit{
   background-color:rgb(248, 99, 0);
   position: absolute;
@@ -272,10 +257,12 @@
 #yourcart{
   background-color:rgb(245, 97, 0);
   position: absolute;
+  height: 8%;
+  width: 12%;
   color:white;
-  left:10%;
-  top:5%;
-  font-size: 150%;
+  left:0%;
+  top:0%;
+  font-size: 120%;
   font-style: italic;
 }
 #total {
@@ -287,9 +274,100 @@
   font-style: italic;
 }
 
-#totalText, #totalPrice {
-  position:relative ;
-  left:42.5%;    
+#addItems {
+  position: absolute;
+  left:50%;
+}
+
+button:hover {
+  background-color: orangered !important;
+  transform: scale(1.1) rotate(2deg);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+#modal {
+  z-index: 1; 
+  color: #0056b3; 
+  position: absolute; 
+  top: 15%; 
+  left: 50%; 
+  transform: translate(-50%, 0); 
+  min-height: 70%; /* Ensures a minimum height */
+  width: 50%; /* Allows dynamic width */
+  max-width: 90%; /* Prevents it from being too wide */
+  background: rgb(255, 251, 200); 
+  border-radius: 10px; 
+  padding: 2%; 
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+  overflow:scroll; /* Allows scrolling if content overflows */
+  box-sizing: border-box; /* Ensures padding is included in width/height */
+  display: flex;
+  flex-direction: column; /* Aligns content vertically */
+  align-items: center; /* Centers the content horizontally */
+}
+
+#modal h3 {
+  margin: 0;
+  text-align: center; 
+  width: 100%; /* Ensures heading takes the full width */
+  font-size: 1.5rem; 
+  font-weight: bold; 
+  color: #0056b3; 
+  border-bottom: 1px solid #e0e0e0; /* Optional: adds a line under the heading */
+  padding-bottom: 0.5rem;
+}
+
+#modal ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#modal li {
+  display: flex;
+  justify-content: space-between; /* Ensures item details and button are spaced */
+  align-items: center; /* Vertically aligns content */
+  margin-bottom: 1rem; /* Adds space between items */
+  padding: 0.5rem 5.5rem;
+  border: 1px solid #e0e0e0; /* Optional: for item separation */
+  border-radius: 5px; /* Smooth corners */
+}
+
+#delete {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 0.5rem 1.5rem;
+  margin-left:1rem;
+  border-radius: 5px; /* Smooth corners */
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease; /* Adds hover effect */
+}
+
+#delete:hover {
+  background-color: darkred; /* Darker shade on hover */
+}
+
+#delete:active {
+  background-color: crimson; /* Lighter shade when pressed */
+}
+
+#total-price {
+  margin-top: 1rem;
+  padding: 0.5rem;
+  background-color: #f9f9f9;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  text-align: right;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
+}
+
+#submit{
+  position: absolute;
+  background-color: rgb(6, 172, 6);
 }
 
 
