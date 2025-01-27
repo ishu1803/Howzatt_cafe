@@ -153,14 +153,14 @@ const Table = ({ path }) => {
       </button>
       {addedItems.length > 0 && (
         <div className="mt-4">
-          <h3>Items Added!</h3>
-          <ul>
+          <h3>Items Added! Now go to Your Cart</h3>
+          {/* <ul>
             {addedItems.map((item) => (
               <li key={item.id}>
                 {item.name} - ₹{item.price} x {item.quantity} = ₹{item.total}
               </li>
             ))}
-          </ul>
+          </ul> */}
         </div>
       )}
     </div>
