@@ -16,7 +16,7 @@ const Cart = () => {
 
   const submit=()=>{
     setCartItems([]);
-    setOrderMessage(`Your order has been received! Please pay the payment ${totalPrice.toFixed(2)} and enjoy the music & cricket highlights! Thank You!!"
+    setOrderMessage(`Your order has been received! Please pay the payment ${totalPrice.toFixed(2)} and enjoy the music & cricket highlights with your meal!! Thank You!!"
     `);
   }
   return (

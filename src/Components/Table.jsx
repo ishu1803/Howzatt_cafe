@@ -153,7 +153,7 @@ const Table = ({ path }) => {
       </button>
       {addedItems.length > 0 && (
         <div className="mt-4">
-          <h3>Items Added! Now go to Your Cart</h3>
+          <h4>Items Added! You can add more items or view Your Cart</h4>
           {/* <ul>
             {addedItems.map((item) => (
               <li key={item.id}>
